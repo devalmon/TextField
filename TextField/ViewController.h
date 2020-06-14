@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UITextField *firstNameField;
+@property (nonatomic, weak) IBOutlet UITextField *lastNameField;
+
+- (IBAction)actionLog:(id)sender;
 
 @end
 
